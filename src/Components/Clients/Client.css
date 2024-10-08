@@ -7,10 +7,12 @@
   
   .header {
     font-weight: bold;
+    font-size: 25px;
   }
   
   .header h2 {
-    color: black;
+    color: #135d3b;
+    padding-top: 20px;
   }
   
   .marquee {
@@ -19,7 +21,7 @@
   }
   
   .client-icon {
-    margin: 0 1rem; /* Adjust spacing as needed */
+    margin: 0 1rem;
     display: inline-block;
   }
   

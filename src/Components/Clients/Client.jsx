@@ -5,22 +5,14 @@ import client1 from "../../assets/Clients1.png";
 import client2 from "../../assets/Clients2.png";
 import client3 from "../../assets/Clients3.png";
 import client4 from "../../assets/Clients4.png";
-import Title from "../Title/Title";
 
 const clients = [client, client1, client2, client3, client4];
-const letters = [
-  "O", "U", "R", 
-  " ",
-  "A", "M", "A", "Z", "I", "N", "G", 
-  " ",
-  "C", "L", "I", "E", "N", "T", "S"
-];
 
 const Client = () => {
   return (
     <div className="clients-container">
       <div className="header">
-        <Title letters={letters}/>
+        <h2>Our Amazing Clients</h2>
       </div>
       <div className="marquee">
         {[...clients, ...clients, ...clients].map((src, index) => (
