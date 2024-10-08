@@ -1,0 +1,37 @@
+.clients-container {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  .header h2 {
+    color: black;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+  
+  .client-icon {
+    margin: 0 1rem; /* Adjust spacing as needed */
+    display: inline-block;
+  }
+  
+  .icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }  

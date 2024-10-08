@@ -6,7 +6,7 @@ import Counter from "../Counter/Counter";
 const Project = ({ image }) => {
   return (
     <>
-       <Counter/>
+      
       <div className="project-container">
         <h2>Project Content</h2>
         <img src={image} alt="Project" className="project-image" />

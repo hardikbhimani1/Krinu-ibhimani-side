@@ -49,7 +49,7 @@ const Counter = () => {
           Ibhimani.inc is driven by a passion for technology and a commitment to
           excellence.
         </p>
-        <button>Learn More</button>
+        <div style={{alignItems:"center"}}><button className='btn'>Work with Us</button></div>
       </div>
       <div className="right-side">
         <div className="counter-container">
