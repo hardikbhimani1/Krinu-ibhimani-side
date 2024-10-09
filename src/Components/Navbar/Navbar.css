@@ -1,6 +1,5 @@
 nav {
     width: 100%;
-    /* background: black; */
     color: #fff;
     padding: 4px 0px;
     position: fixed;
@@ -17,17 +16,23 @@ nav {
     padding: 20px;
 }
 
+nav ul {
+    flex-direction: row;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
     font-size: 20px;
 }
-.container{
+
+.container {
     padding-left: 10px;
     padding-right: 10px;
 }
-.btn{
+
+.btn {
     background: #FFF;
     color: #212121;
     padding: 14px 25px;
@@ -38,8 +43,44 @@ nav ul li {
     outline: 0;
 }
 
-.green-nav{
+.green-nav {
     background: #135d3b;
     transition: 0.5s;
     color: #FFF;
+}
+
+.mobile-menu-icon {
+    display: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: #135d3b;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .mobile-menu-icon {
+        display: block; 
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
 }
