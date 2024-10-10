@@ -26,7 +26,7 @@ const Hero = () => {
         <img className="background" src={banner2} alt="Banner 2" />
       ) : null}
       <div className="hero-text">
-        <h2>Build Your Digital Space With</h2>
+        <h2 style={{fontSize:"1.4rem"}}>Build Your Digital Space With</h2>
         <h1 style={{color:"#135d3b"}}>Thriving Innovation</h1>
         <p>
           ibhimani Inc. facilitates the digital place for your organization and
