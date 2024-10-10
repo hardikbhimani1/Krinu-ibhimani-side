@@ -5,6 +5,7 @@ import Project from './Components/Project/Project';
 import Counter from './Components/Counter/Counter';
 import Title from './Components/Title/Title';
 import Client from './Components/Clients/Client';
+import Services from './Components/Services/Services';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <Counter/>
       <Client/>
+      <Services/>
     </div>
   );
 };

@@ -28,9 +28,9 @@ const Navbar = () => {
         {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li>Home</li>
-        <li>Explore</li>
-        <li>About</li>
+        <li className='hover-effect'>Home</li>
+        <li className= 'hover-effect'>Explore</li>
+        <li className='hover-effect'>About</li>
         <li className="btn">Contact</li>
       </ul>
     </nav>

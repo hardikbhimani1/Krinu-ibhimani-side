@@ -18,6 +18,7 @@
     object-fit: cover;
     z-index: 1;
     background: gray !important;
+    filter: blur(2px); 
 }
 
 .hero video {
@@ -28,6 +29,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    filter: blur(2px); 
 }
 
 .hero-text {
@@ -59,7 +61,7 @@ p {
 }
 
 .btn {
-    background-color: #e07b39;
+    background-color: #135d3b;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -97,13 +99,10 @@ p {
     cursor: pointer;
 }
 
-.hero-dot.orange {
-    background-color: orange;
+.hero-dot.green {
+    background-color: #135d3b;
 }
 
-.hero-dot.orange {
-    background: orangered;
-}
 
 @media (max-width: 768px) {
     .hero-text {

@@ -27,7 +27,7 @@ const Hero = () => {
       ) : null}
       <div className="hero-text">
         <h2>Build Your Digital Space With</h2>
-        <h1>Thriving Innovation</h1>
+        <h1 style={{color:"#135d3b"}}>Thriving Innovation</h1>
         <p>
           ibhimani Inc. facilitates the digital place for your organization and
           provides an innovative solution that puts your organization to new
@@ -39,15 +39,15 @@ const Hero = () => {
           <ul className="hero-dots">
             <li
               onClick={() => setHeroCount(0)}
-              className={heroCount === 0 ? "hero-dot orage" : "hero-dot"}
+              className={heroCount === 0 ? "hero-dot green" : "hero-dot"}
             ></li>
             <li
               onClick={() => setHeroCount(1)}
-              className={heroCount === 1 ? "hero-dot orage" : "hero-dot"}
+              className={heroCount === 1 ? "hero-dot green" : "hero-dot"}
             ></li>
             <li
               onClick={() => setHeroCount(2)}
-              className={heroCount === 2 ? "hero-dot orage" : "hero-dot"}
+              className={heroCount === 2 ? "hero-dot green" : "hero-dot"}
             ></li>
           </ul>
           <div className="hero-play">

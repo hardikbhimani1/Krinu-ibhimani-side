@@ -43,6 +43,18 @@ nav ul li {
     outline: 0;
 }
 
+.hover-effect:hover {
+    color: green;
+}
+
+.hover-effect-green:hover {
+    color: green;
+}
+.hover-effect:hover {
+    color: #61bd93;
+}
+
+
 .green-nav {
     background: #135d3b;
     transition: 0.5s;
