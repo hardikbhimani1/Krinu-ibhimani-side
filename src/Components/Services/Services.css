@@ -4,7 +4,6 @@
 }
 
 .grid {
-    display: flex;
     gap: 2.5rem;
 }
 
@@ -65,4 +64,22 @@
     text-align: center;
     padding: 20px;
     color: #135d3b;
+}
+
+@media (max-width: 768px) {
+    .service-card{
+        margin-bottom: 10rem !important;
+    }
+    .grid{
+        padding: 20px;
+    }
+    .card-content {
+        width: 101% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+    }
 }
