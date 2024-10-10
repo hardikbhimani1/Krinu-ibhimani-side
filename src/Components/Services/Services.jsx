@@ -1,5 +1,8 @@
 import React from "react";
 import './Services.css';
+import serviceImage1 from '../../assets/services-5.jpg';
+import serviceImage2 from '../../assets/services-4.jpg';
+import serviceImage3 from '../../assets/services-6.jpg';
 
 const Services = () => {
   const services = [
@@ -8,27 +11,27 @@ const Services = () => {
       title: "Alibaba Minisite",
       desc: "Ibhimani designs engaging Alibaba minisites that showcase your brand and products for maximum impact.",
       button: true,
-      image: "/src/assets/services-4.jpg",
+      image: serviceImage2,
     },
     {
       id: 2,
       title: "Alibaba Product Listing",
       desc: "Ibhimani creates eye-catching Alibaba product listings with clear descriptions and images to boost sales.",
       button: true,
-      image: "/src/assets/services-5.jpg",
+      image: serviceImage1,
     },
     {
       id: 3,
       title: "Alibaba Product Optimization",
       desc: "Ibhimani offers Alibaba product optimization to enhance visibility, improve listings, and drive more sales.",
       button: true,
-      image: "/src/assets/services-6.jpg",
+      image: serviceImage3,
     },
   ];
 
   return (
     <div className="services-box">
-        <div className="header">
+      <div className="header">
         <h2>Our Services</h2>
       </div>
       <div className="grid">
