@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/i-bhimani-Logo-logo.png";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (Header) => {
   const [sticky, setSticky] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -22,15 +23,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`container ${sticky ? 'green-nav' : ''}`}>
+    <nav className={`container ${sticky || Header ? 'green-nav' : ''}`}>
       <img className="nav-logo" src={logo} alt="Logo" />
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li className='hover-effect'>Home</li>
+        <li className='hover-effect'>
+        <li className='hover-effect'>
+          <Link to="/">Home</Link>
+        </li>
+        </li>
         <li className= 'hover-effect'>Explore</li>
         <li className='hover-effect'>About</li>
+        <li className='hover-effect'>
+          <Link to="/services">Service</Link>
+        </li>
         <li className="btn">Contact</li>
       </ul>
     </nav>

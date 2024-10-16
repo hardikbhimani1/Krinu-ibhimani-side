@@ -1,11 +1,11 @@
 .services-box {
-    max-width: 1200px;
     margin: auto;
     padding-bottom: 20px;
 }
 
 .grid {
     gap: 2.5rem;
+    justify-content: center;
 }
 
 .service-card {
