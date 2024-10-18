@@ -91,7 +91,7 @@ body {
 }
 .minisite-image img {
     height: 100%;
-    width: 500px;
+    width: 405px;
     border-radius: 40px;
     gap: 20px;
     display: flex;
@@ -114,8 +114,8 @@ body {
     display: flex !important;
     overflow-x: auto; 
     white-space: nowrap;
-    gap: 20px;
-    padding-left: 80px; 
+    gap: 15px;
+    padding-left: 35px; 
     scrollbar-width: none;
 }
 .minisite-cards-list::-webkit-scrollbar {
