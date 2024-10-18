@@ -25,11 +25,11 @@
     display: inline-block;
   }
   
-  .icon {
+  .icons {
     transition: transform 0.3s ease-in-out;
   }
   
-  .icon:hover {
+  .icons:hover {
     transform: scale(1.1);
   }
   

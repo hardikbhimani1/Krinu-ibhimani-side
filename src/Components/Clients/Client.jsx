@@ -21,7 +21,7 @@ const Client = () => {
               <img
                 src={src}
                 alt={`Client ${index + 1}`}
-                className="icon"
+                className="icons"
               />
             </a>
           </span>
