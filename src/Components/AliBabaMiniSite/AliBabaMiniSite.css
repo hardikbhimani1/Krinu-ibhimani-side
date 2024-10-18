@@ -76,7 +76,7 @@ body {
     position: relative;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin: 20px;
+    margin: 20px 3px 20px 20px;
     display: flex ; 
     flex-direction: column;
     justify-content: space-between;
@@ -114,7 +114,6 @@ body {
     display: flex !important;
     overflow-x: auto; 
     white-space: nowrap;
-    gap: 15px;
     padding-left: 35px; 
     scrollbar-width: none;
 }
