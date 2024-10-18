@@ -27,6 +27,7 @@ body {
     padding: 30px;
     color: black;
     text-align: center;
+    padding-right: 0px;
 }
 
 .our-minisite-tag {
@@ -46,7 +47,6 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    /* Ensure it takes full height */
 }
 
 .minisite-overlay {
@@ -71,8 +71,63 @@ body {
     line-height: 1.0834933333;
 }
 
-.title h1{
+.minisite-cards {
+    position: relative;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+    display: flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    margin-right: 16px;
+    flex: 0 0 auto;       
+    transition: transform 0.3s ease;  
+    overflow: hidden;     
+}
+.minisite-cards:hover {
+    transform: scale(1.02);
+}
+.minisite-image img {
+    height: 100%;
+    width: 500px;
+    border-radius: 40px;
+    gap: 20px;
+    display: flex;
+    opacity: 1;
+
+}
+
+.get-title-h1{
+    align-items: flex-start;
+    display: flex;
+    margin: 65px;
+    padding-left: 35px;
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.minisite-cards-list{
+    display: flex !important;
+    overflow-x: auto; 
+    white-space: nowrap;
+    gap: 20px;
+    padding-left: 80px; 
+    scrollbar-width: none;
+}
+.minisite-cards-list::-webkit-scrollbar {
+    display: none; 
+}
+.minisite-title-h1 h1{
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    position: absolute;
+    top: 0;
+    font-size: 23px;
+    padding: 12px;
+    margin-left: 30px;
+    color: #f5f5f7;
 }
 
 .minisite-text {
@@ -99,46 +154,51 @@ body {
 
 .icon {
     margin-left: 10px;
-    height: 36px;
-    width: 36px;
-    background-color: black;
-    border: 2px solid black;
+    height: 45px;
+    width: 45px;
+    background-color: #333336;
     border-radius: 50%;
     padding: 10px;
     text-align: center;
 }
 
 .minisite-desc {
-    text-align: center;
-    flex: 1;
+    position:absolute;
+    padding-left: 117px !important;
+    top: 50px;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
 .usa-icon {
-    width: 35px;
-    height: 30px;
+    width: 40px;
+    height: 35px;
     display: flex;
+    margin-left: 12px;
 }
 
 .plus-icon {
     display: flex;
-    justify-content: end;
     padding: 20px;
+    bottom:0px;
+    position: absolute;
+    justify-content: end;
+    right: 0px;
 }
 
-.description{
+/* .description{
     padding: 20px;
     margin: 0 auto;
     max-width: 80% !important;
-}
+} */
 
 .minisite-title-of-desc {
     font-size: 35px;
     font-weight: bold; 
     margin: 16px;
     color: rgb(29, 29, 31);
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 .highlight {
@@ -173,6 +233,7 @@ body {
     letter-spacing: .011em;
     color: rgb(29, 29, 31);
     padding-left: 10px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 .elegant-title{
@@ -186,4 +247,22 @@ body {
     display: flex;
     align-items: center;
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.content-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
