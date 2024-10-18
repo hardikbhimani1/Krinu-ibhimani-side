@@ -131,6 +131,7 @@ body {
 .description{
     padding: 20px;
     margin: 0 auto;
+    max-width: 80% !important;
 }
 
 .minisite-title-of-desc {
@@ -152,11 +153,37 @@ body {
     color: rgb(29, 29, 31);
     max-width: 80% !important;
     padding: 10px;
-    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .read-more {
     color: red;
     cursor: pointer;
     font-weight: bold;
+}
+.green-highlight{
+    color: green;
+}
+
+.minisite-of-desc{
+    font-size: 35px;
+    line-height: 1.381002381;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .011em;
+    color: rgb(29, 29, 31);
+    padding-left: 10px;
+}
+
+.elegant-title{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+.elegant-desc{
+    text-align: revert-layer;
+    justify-content: end;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
