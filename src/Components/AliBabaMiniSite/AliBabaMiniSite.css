@@ -134,7 +134,7 @@ body {
 }
 
 .minisite-title-of-desc {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold; 
     margin: 16px;
     color: rgb(29, 29, 31);
@@ -145,7 +145,7 @@ body {
 }
 
 .minisite-text-of-desc{
-    font-size: 21px;
+    font-size: 26px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
@@ -153,4 +153,10 @@ body {
     max-width: 80% !important;
     padding: 10px;
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.read-more {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
 }
