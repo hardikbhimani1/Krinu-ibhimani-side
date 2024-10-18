@@ -7,6 +7,7 @@ import Client from "./Components/Clients/Client";
 import Services from "./Components/Services/Services"; // Optional for listing services
 import Project from "./Components/Project/Project";
 import ServicePage from "./Components/ServicePage/ServicePage"; // Ensure spelling is correct
+import AliBabaMiniSite from "./Components/AliBabaMiniSite/AliBabaMiniSite";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<><Hero /><Counter /><Client /><Services /><Project /></>} />
         <Route path="/services" element={<ServicePage />} />
+        <Route path="/minisite" element={<AliBabaMiniSite />} />
       </Routes>
     </Router>
   );

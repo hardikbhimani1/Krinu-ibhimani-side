@@ -7,6 +7,7 @@ import Navbar from "../Navbar/Navbar";
 import serviceImage1 from "../../assets/services-5.jpg";
 import serviceImage2 from "../../assets/services-4.jpg";
 import serviceImage3 from "../../assets/services-6.jpg";
+import { Link } from "react-router-dom";
 
 const ServicePage = () => {
   const services = [
@@ -16,6 +17,7 @@ const ServicePage = () => {
       desc: "Ibhimani designs engaging Alibaba minisites that showcase your brand and products for maximum impact.",
       button: true,
       image: serviceImage2,
+      link: "/minisite"
     },
     {
       id: 2,
@@ -61,7 +63,9 @@ const ServicePage = () => {
                 </div>
                 <div className="desc">
                   <p>{service.desc}</p>
-                  <button>Click On</button>
+                  <Link to={service.link}>
+                    <button>Click On</button>
+                  </Link>
                 </div>
               </div>
             ))}

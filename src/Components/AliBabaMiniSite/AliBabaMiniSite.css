@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.minisite-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.minisite-text-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.minisite {
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
+
+.our-minisite-tag {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.our-minisite-desc {
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* Ensure it takes full height */
+}
+
+.minisite-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.minisite-title {
+    position: absolute;
+    text-align: start;
+    color: white;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    z-index: 2;
+    font-size: 48px !important;
+    font-weight: 600;
+    letter-spacing: .003em;
+    line-height: 1.0834933333;
+}
+
+.title h1{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.minisite-text {
+    position: absolute;
+    justify-content: start;
+    color: white;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    z-index: 2;
+    top: 60%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.minisite-line {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 20%;
+    height: auto;
+}
+
+.icon {
+    margin-left: 10px;
+    height: 36px;
+    width: 36px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.minisite-desc {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.usa-icon {
+    width: 35px;
+    height: 30px;
+    display: flex;
+}
+
+.plus-icon {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.description{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.minisite-title-of-desc {
+    font-size: 30px;
+    font-weight: bold; 
+    margin: 16px;
+    color: rgb(29, 29, 31);
+}
+
+.highlight {
+    color: red;
+}
+
+.minisite-text-of-desc{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: rgb(29, 29, 31);
+    max-width: 80% !important;
+    padding: 10px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
