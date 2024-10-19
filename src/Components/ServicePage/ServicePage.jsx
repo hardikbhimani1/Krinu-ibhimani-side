@@ -64,7 +64,7 @@ const ServicePage = () => {
                 <div className="desc">
                   <p>{service.desc}</p>
                   <Link to={service.link}>
-                    <button>Click On</button>
+                    <button className="click-button">Click On</button>
                   </Link>
                 </div>
               </div>
