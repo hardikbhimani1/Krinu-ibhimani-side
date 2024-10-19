@@ -1,0 +1,102 @@
+body.modal-open {
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    padding-left: 10px;
+    border-radius: 26px;
+    width: 90%;
+    height: calc(100vh - 40px);
+    padding-left: 72px;
+    /* max-height: calc(100vh - 40px); */
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: flex;
+}
+
+.fixed-top,
+.fixed-bottom {
+    height: 20px;
+    background: white;
+}
+
+.close {
+    text-align: end;
+}
+
+.close-button {
+    padding: 15px;
+    background-color: #333336;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon {
+    width: 24px;
+    height: 24px;
+    fill: #d6d6d7;
+    border-radius: 19px;
+}
+
+.close-button:hover .close-icon {
+    fill: #ccc;
+}
+
+.model-title {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 76px;
+    padding-left: 20px;
+}
+
+.model-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 36px;
+    margin: 30px;
+}
+
+@media (max-width: 768px) {
+    .model-title {
+        font-size: 25px;
+        padding: 35px;
+    }
+
+    .modal-content {
+        padding: 5px;
+        padding-left: 15px;
+    }
+
+    .model-image {
+        width: 100%;
+        border-radius: 36px;
+        height: 550px;
+    }
+    .close-button {
+        padding: 15px;
+    }
+}
