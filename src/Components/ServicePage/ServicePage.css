@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     padding-top: 91px;
-    
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   .service-container {
@@ -48,6 +47,10 @@ body {
     opacity: 1;
     transition: opacity 1s ease-in-out;
   }
+  .service-text-desc{
+    font-size: 20px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
   
   .service-line {
     position: absolute;
@@ -68,7 +71,7 @@ body {
     z-index: 2;
     font-weight: 700 !important;
     line-height: 112% !important;
-    top: 30%;
+    top: 21%;
     left: 15%;
     transform: translateX(-50%);
   }
@@ -79,7 +82,7 @@ body {
     color: white;
     font-family: "Mukta", sans-serif;
     z-index: 2;
-    top: 50%;
+    top: 40%;
     left: 13%;
     transform: translateX(-50%);
     font-size: 24px;
@@ -87,30 +90,32 @@ body {
   .services {
     padding: 30px;
     color: black;
-    text-align: center;
+    margin-top: 60px;
+    background-color: #f5f5f7;
+
 }
 
 .our-service-tag {
     margin: 0;
     font-size: 24px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .our-service-desc {
     margin-top: 10px;
     font-size: 36px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .cards-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+    margin-top: 60px;
+    
 }
 
 .cards {
-    background-color: white;
     border-radius: 10px;
     margin: 20px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
     width: 30%;
     display: flex; 
     flex-direction: column;
@@ -118,6 +123,7 @@ body {
 }
 .title h1{
     font-size: 30px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .image {
     flex: 2;
@@ -126,8 +132,7 @@ body {
 .image img {
     width: 100%;
     height: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 15px;
 }
 
 .title {
@@ -141,15 +146,17 @@ body {
     color:black;
     flex: 1;
     padding: 30px;
+    padding-top: 10px;
 }
 
 .click-button {
-    background: #135d3b;
+    background: #0071e3;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: white;
-    padding: 14px 25px;
+    padding: 18px 46px;
     font-size: 20px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     cursor: pointer;
     border: 0;
     outline: 0;
@@ -157,8 +164,45 @@ body {
 }
 
 .click-button:hover {
-    background-color: black;
+  background: #0c7ff3;
     color: white;
     transition: .5s;
     padding-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .cards{
+    width: 100%;
+  }
+  .services{
+    padding-left: 0px;
+  }
+  .our-service-desc {
+    font-size: 24px;
+    padding-left:20px;
+  }
+  .our-service-tag{
+    font-size: 14px;
+    padding-left:20px;
+  }
+  .cards-list{
+    padding-right: 10px;
+  }
+  .desc{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .title h1 {
+    font-size: 2px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

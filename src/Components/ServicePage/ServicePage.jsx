@@ -62,7 +62,7 @@ const ServicePage = () => {
                   <h1>{service.title}</h1>
                 </div>
                 <div className="desc">
-                  <p>{service.desc}</p>
+                  <p className="service-text-desc">{service.desc}</p>
                   <Link to={service.link}>
                     <button className="click-button">Click On</button>
                   </Link>

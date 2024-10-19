@@ -222,7 +222,7 @@ body {
     font-weight: bold;
 }
 
-.green-highlight {
+.green-highlight {  
     color: green;
 }
 
@@ -240,7 +240,6 @@ body {
 
 .elegant-title {
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 70px;
 }
 
