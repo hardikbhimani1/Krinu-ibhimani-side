@@ -12,7 +12,7 @@ import plusIcon from "../../assets/Plus-Icon.svg";
 import usaIcon from "../../assets/usa.png";
 import appleWatchUltra from "../../assets/apple-watch-ultra.jpg";
 import MiniSiteModel from "../MiniSiteModel/MiniSiteModel";
-import Business from "../MiniComponents/Business/business";
+import Business from "../MiniComponents/Business/Business";
 
 const AliBabaMiniSite = () => {
   const services = [
