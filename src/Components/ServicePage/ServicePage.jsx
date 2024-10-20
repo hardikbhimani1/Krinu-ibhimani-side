@@ -39,16 +39,6 @@ const ServicePage = () => {
     <>
       <Navbar Header={true} />
       <div className="service-container">
-        <div className="image-wrapper">
-          <img src={serviceBG} alt="Banner" className="service-bg" />
-          <div className="service-overlay" />
-        </div>
-        <h1 className="service-title">Service</h1>
-        <h3 className="service-text">Home &gt; Service</h3>
-        <img src={serviceBGEffect} alt="Effect" className="service-effect" />
-        <img src={serviceLine} alt="Effect" className="service-line" />
-      </div>
-      <div className="service-container">
         <div className="services">
           <h3 className="our-service-tag">OUR SERVICES</h3>
           <h1 className="our-service-desc">We Provide the Best Quality</h1>

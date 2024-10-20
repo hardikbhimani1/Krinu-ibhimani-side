@@ -1,0 +1,68 @@
+.business-cards-list {
+    display: flex !important;
+    overflow-x: auto;
+    padding-left: 35px;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.small-cards-container {
+    display: flex;
+    flex-direction: row; /* Create columns */
+}
+
+.small-card-column {
+    display: flex;
+    flex-direction: column; /* Stack small cards in each column */
+    margin-right: 16px; /* Space between columns */
+}
+
+.business-cards {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    flex: 0 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.small-card {
+    height: 240px;
+    width: 313px;
+    margin: 14px 4px;
+}
+
+.big-card {
+    height: 500px;
+    width: 400px; /* Width of big card */
+}
+
+.business-cards:hover {
+    transform: scale(1.02);
+}
+
+.business-image img {
+    height: 100%;
+    width: 100%; /* Make responsive */
+    border-radius: 10px; /* Adjust border radius */
+}
+
+.business-title-h1 h1 {
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    position: absolute;
+    top: 0;
+    font-size: 20px; /* Adjust font size if needed */
+    padding: 12px;
+    color: #f5f5f7;
+}
+
+.business-desc {
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}

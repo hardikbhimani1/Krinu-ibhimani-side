@@ -276,10 +276,11 @@ body {
 }
 
 .elegant-image {
-    width: calc(100% - 60px);
+    width: calc(100% - 2px);
     height: auto;
     border-radius: 50px;
     display: block;
+    height: 750px;
 }
 
 .rightside-icon {

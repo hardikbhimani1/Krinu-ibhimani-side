@@ -12,6 +12,7 @@ import plusIcon from "../../assets/Plus-Icon.svg";
 import usaIcon from "../../assets/usa.png";
 import appleWatchUltra from "../../assets/apple-watch-ultra.jpg";
 import MiniSiteModel from "../MiniSiteModel/MiniSiteModel";
+import Business from "../MiniComponents/Business/business";
 
 const AliBabaMiniSite = () => {
   const services = [
@@ -260,6 +261,7 @@ const AliBabaMiniSite = () => {
           </div>
         </div>
       </div>
+      <Business/>
       {popupVisible && <MiniSiteModel onClose={() => setPopupVisible(false)} />}
     </>
   );

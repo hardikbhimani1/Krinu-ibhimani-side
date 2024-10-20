@@ -31,13 +31,13 @@ const Navbar = (Header) => {
       <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
         <li className='hover-effect'>
         <li className='hover-effect'>
-          <Link to="/">Home</Link>
+          <Link className="nav-path" to="/">Home</Link>
         </li>
         </li>
         <li className= 'hover-effect'>Explore</li>
         <li className='hover-effect'>About</li>
         <li className='hover-effect'>
-          <Link to="/services">Service</Link>
+          <Link className="nav-path" to="/services">Service</Link>
         </li>
         <li className="btn">Contact</li>
       </ul>
