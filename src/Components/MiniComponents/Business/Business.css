@@ -5,15 +5,25 @@
     scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
 
+.b-desc{
+    color: #fff0d2;
+    font-size: 24px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.b-title{
+    color: #fff0d2; 
+    font-size: 12px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
 .small-cards-container {
     display: flex;
-    flex-direction: row; /* Create columns */
+    flex-direction: row;
 }
 
 .small-card-column {
     display: flex;
-    flex-direction: column; /* Stack small cards in each column */
-    margin-right: 16px; /* Space between columns */
+    flex-direction: column;
+    margin-right: 16px;
 }
 
 .business-cards {
@@ -37,7 +47,7 @@
 
 .big-card {
     height: 500px;
-    width: 400px; /* Width of big card */
+    width: 400px; 
 }
 
 .business-cards:hover {
@@ -46,17 +56,22 @@
 
 .business-image img {
     height: 100%;
-    width: 100%; /* Make responsive */
-    border-radius: 10px; /* Adjust border radius */
+    width: 100%;
+    border-radius: 10px;
 }
 
 .business-title-h1 h1 {
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
     position: absolute;
     top: 0;
-    font-size: 20px; /* Adjust font size if needed */
+    font-size: 20px;   
     padding: 12px;
-    color: #f5f5f7;
+}
+.business-main-text-h1 .business-main-text-span{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.business-main-text{
+    margin: 50px;
 }
 
 .business-desc {
@@ -65,4 +80,54 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+.rightside-icon {
+    display: flex;
+    padding: 30px 60px 20px 20px;
+}
+
+.leftside-icon {
+    display: flex;
+    padding: 30px 0px 20px 20px;
+}
+
+.scoll-icon {
+    border: none;
+    background-color: #f5f5f7;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.scoll-icon svg {
+    fill: #636365;
+    width: 36px;
+    height: 36px;
+}
+
+.scoll-icon:hover {
+    background-color: darkgrey;
+}   
+
+@media (max-width: 768px) {
+    .rightside-icon {
+        padding: 28px 29px 20px 20px;
+    }
+
+    .scoll-icon {
+        padding: 10px;
+    }
+    .small-card-column{
+        margin-right:5px;
+    }
+    .small-card{
+        width: 295px;
+    }
+    .b-desc {
+        font-size: 20px;
+    }
 }
