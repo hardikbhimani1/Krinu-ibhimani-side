@@ -1,0 +1,23 @@
+.minisite-blog {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px;
+    height: auto;
+    min-height: 250px;
+}
+
+.minisite-blog-body {
+    text-align: center;
+}
+
+.minisite-blog-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 30px;
+    margin: 61px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
