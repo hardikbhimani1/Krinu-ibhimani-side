@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./AliBabaMiniSite.css";
-import AliBabaMiniSiteBG from "../../assets/alibabaminiside.png";
-import serviceLine from "../../assets/line-services.png";
+import AliBabaMiniSiteBG from "../../assets/iphone16.jpg";
 import Navbar from "../Navbar/Navbar";
 import serviceImage1 from "../../assets/fc_creativity.jpg";
 import serviceImage2 from "../../assets/fc_entertainment.jpg";
@@ -14,6 +13,7 @@ import appleWatchUltra from "../../assets/apple-watch-ultra.jpg";
 import MiniSiteModel from "../MiniSiteModel/MiniSiteModel";
 import Business from "../MiniComponents/Business/Business";
 import MinisiteBlog from "../MiniComponents/MinisiteBlog/MinisiteBlog";
+import ServiceBlogImage from "../MiniComponents/ServiceBlogImage/ServiceBlogImage";
 
 const AliBabaMiniSite = () => {
   const services = [
@@ -133,11 +133,8 @@ const AliBabaMiniSite = () => {
           <div className="minisite-overlay" />
         </div>
         <h1 className="minisite-title">Alibaba Minisite</h1>
-        <h3 className="minisite-text">
-          Home &gt; Service &gt; AliBaba Minisite
-        </h3>
-        <img src={serviceLine} alt="Effect" className="minisite-line" />
       </div>
+      <ServiceBlogImage/>
       <div className="minisite-text-container">
         <div className="minisite">
           <h3 className="our-minisite-tag">Alibaba Minisite</h3>
@@ -247,7 +244,7 @@ const AliBabaMiniSite = () => {
               <span className="green-highlight">Minisite Designs.</span>
             </h3>
           </div>
-          <div className="elegant" >
+          <div className="elegant">
             <h1 className="elegant-title">Elegant Minisite</h1>
             <h3 className="elegant-desc">
               Discover the excellence in <br /> our Minisite offerings.
@@ -262,8 +259,8 @@ const AliBabaMiniSite = () => {
           </div>
         </div>
       </div>
-      <Business/>
-      <MinisiteBlog/>
+      <Business />
+      <MinisiteBlog />
       {popupVisible && <MiniSiteModel onClose={() => setPopupVisible(false)} />}
     </>
   );
