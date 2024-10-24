@@ -14,6 +14,9 @@ import MiniSiteModel from "../MiniSiteModel/MiniSiteModel";
 import Business from "../MiniComponents/Business/Business";
 import MinisiteBlog from "../MiniComponents/MinisiteBlog/MinisiteBlog";
 import ServiceBlogImage from "../MiniComponents/ServiceBlogImage/ServiceBlogImage";
+import MiniTextBlog from "../MiniComponents/MiniTextBlog/MiniTextBlog";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const AliBabaMiniSite = () => {
   const services = [
@@ -134,6 +137,7 @@ const AliBabaMiniSite = () => {
         </div>
         <h1 className="minisite-title">Alibaba Minisite</h1>
       </div>
+      <MiniTextBlog/>
       <ServiceBlogImage/>
       <div className="minisite-text-container">
         <div className="minisite">
@@ -262,6 +266,8 @@ const AliBabaMiniSite = () => {
       <Business />
       <MinisiteBlog />
       {popupVisible && <MiniSiteModel onClose={() => setPopupVisible(false)} />}
+        <Contact/>
+        <Footer/>
     </>
   );
 };
