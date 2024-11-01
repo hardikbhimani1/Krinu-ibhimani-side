@@ -25,6 +25,7 @@ const ServicePage = () => {
       desc: "Ibhimani creates eye-catching Alibaba product listings with clear descriptions and images to boost sales.",
       button: true,
       image: serviceImage1,
+      link:"/product-listing"
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const ServicePage = () => {
       desc: "Ibhimani offers Alibaba product optimization to enhance visibility, improve listings, and drive more sales.",
       button: true,
       image: serviceImage3,
+      link:"/product-optimization"
     },
   ];
 
